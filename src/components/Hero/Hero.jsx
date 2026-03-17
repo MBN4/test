@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import bgImage from '../../assets/Background-Image.webp';
+import bgImage from '../../assets/bgi.webp';
 
 const Hero = () => {
   return (
