@@ -1,0 +1,121 @@
+.faq-section {
+  padding: 100px 0;
+  background-color: #f6f8ff;
+}
+
+.faq-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.faq-header-area {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.faq-badge {
+  background: #005B82 !important;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.faq-main-title {
+  font-size: 64px;
+  color: #001B2B;
+  font-weight: 700;
+}
+
+.faq-accordion-box {
+  background: #ffffff !important;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
+
+.faq-category-header {
+  background: #001B2B !important;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.faq-list {
+  padding: 50px 40px;
+  background: #ffffff !important; /* Force background to white */
+}
+
+.faq-item-group {
+  margin-bottom: 20px;
+  background: transparent !important; /* Remove any ghost backgrounds */
+}
+
+.faq-toggle-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 35px;
+  background: #001B2B !important;
+  color: #ffffff;
+  border: 1px solid #001B2B;
+  border-radius: 100px; /* Pill shape */
+  cursor: pointer;
+  transition: all 0.4s ease;
+  text-align: left;
+}
+
+.faq-q-text {
+  font-size: 17px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.faq-plus-minus {
+  font-size: 24px;
+  line-height: 1;
+}
+
+/* State when OPEN */
+.faq-item-group.is-open .faq-toggle-btn {
+  background: transparent !important;
+  color: #001B2B;
+  transform: translateY(0);
+}
+
+/* THE REVEAL ANIMATION */
+.faq-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease-in-out, opacity 0.6s ease-in-out;
+  opacity: 0;
+}
+
+.faq-item-group.is-open .faq-collapse {
+  max-height: 500px; /* Large enough to fit any answer */
+  transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
+  opacity: 1;
+}
+
+.faq-answer-inner {
+  padding: 30px 40px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #001B2B;
+  transform: translateY(10px);
+  transition: transform 0.8s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .faq-main-title { font-size: 42px; }
+  .faq-list { padding: 30px 20px; }
+  .faq-toggle-btn { padding: 15px 25px; font-size: 15px; }
+}
