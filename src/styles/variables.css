@@ -1,0 +1,21 @@
+:root {
+  /* Colors */
+  --bg-dark: #0a1628;           /* Main Background */
+  --bg-card: #162b45;           /* Login card / Feature cards */
+  --primary-blue: #2b5a91;      /* Buttons / Links */
+  --primary-blue-hover: #1e416a;
+  
+  --text-main: #ffffff;         /* Headings */
+  --text-muted: #b3b3b3;        /* Paragraphs / Subtext */
+  --text-accent: #f9ba48;       /* Gold/Yellow used in some text */
+
+  --border-light: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(22, 43, 69, 0.7); /* The transparent login card */
+
+  /* Spacing & Layout */
+  --container-width: 1200px;
+  --section-padding: 80px 20px;
+  
+  /* Typography */
+  --font-main: 'Inter', sans-serif;
+}
