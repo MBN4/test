@@ -50,12 +50,12 @@
 
 .faq-list {
   padding: 50px 40px;
-  background: #ffffff !important; /* Force background to white */
+  background: #ffffff !important; 
 }
 
 .faq-item-group {
   margin-bottom: 20px;
-  background: transparent !important; /* Remove any ghost backgrounds */
+  background: transparent !important; 
 }
 
 .faq-toggle-btn {
@@ -67,7 +67,7 @@
   background: #001B2B !important;
   color: #ffffff;
   border: 1px solid #001B2B;
-  border-radius: 100px; /* Pill shape */
+  border-radius: 100px; 
   cursor: pointer;
   transition: all 0.4s ease;
   text-align: left;
@@ -84,14 +84,12 @@
   line-height: 1;
 }
 
-/* State when OPEN */
 .faq-item-group.is-open .faq-toggle-btn {
   background: transparent !important;
   color: #001B2B;
   transform: translateY(0);
 }
 
-/* THE REVEAL ANIMATION */
 .faq-collapse {
   max-height: 0;
   overflow: hidden;
@@ -100,7 +98,7 @@
 }
 
 .faq-item-group.is-open .faq-collapse {
-  max-height: 500px; /* Large enough to fit any answer */
+  max-height: 500px; 
   transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
   opacity: 1;
 }

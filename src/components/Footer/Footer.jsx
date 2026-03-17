@@ -11,7 +11,6 @@ const Footer = () => {
         <div className="footer-container">
           
           <div className="footer-top-grid">
-            {/* COLUMN 1: BRAND */}
             <div className="footer-col brand-col">
               <img src={logo} alt="Modern Aminos" className="footer-white-logo" />
               <p className="footer-brand-text">
@@ -19,7 +18,6 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* COLUMN 2: CONTACT & LINKS (Stacked vertically) */}
             <div className="footer-col info-stack-col">
               <div className="info-group">
                 <h3>Contact Us</h3>
@@ -38,7 +36,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* COLUMN 3: SUBSCRIBE */}
             <div className="footer-col subscribe-col">
               <h3>Subscribe now to save 15%</h3>
               <p className="sub-description">

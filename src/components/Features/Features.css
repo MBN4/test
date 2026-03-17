@@ -1,10 +1,10 @@
 .features-section {
   padding: 100px 0;
-  background-color: #f6f8ff; /* Light lavender-white background */
+  background-color: #f6f8ff; 
 }
 
 .features-container {
-  max-width: 1400px; /* Wider container like Img 2 */
+  max-width: 1400px; 
   margin: 0 auto;
   padding: 0 50px;
 }
@@ -12,20 +12,20 @@
 .features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px; /* Space between cards */
+  gap: 30px; 
 }
 
 .feature-card {
-  background-color: #001b2b; /* Deep navy from Img 2 */
+  background-color: #001b2b; 
   color: #ffffff;
-  padding: 40px 40px; /* Tightened padding to make cards look compact */
-  border-radius: 24px; /* Soft rounded corners */
+  padding: 40px 40px; 
+  border-radius: 24px; 
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: all 0.3s ease;
-  min-height: 340px; /* Ensures consistent height across cards */
+  min-height: 340px; 
   justify-content: flex-start;
 }
 
@@ -53,11 +53,10 @@
 .feature-card p {
   font-size: 15px;
   line-height: 1.7;
-  color: #cbd5e1; /* Slightly muted white for better readability */
+  color: #cbd5e1; 
   font-weight: 400;
 }
 
-/* Responsive adjustments */
 @media (max-width: 1100px) {
   .features-grid {
     grid-template-columns: 1fr;

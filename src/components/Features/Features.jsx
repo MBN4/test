@@ -7,7 +7,6 @@ const Features = () => {
       <div className="features-container">
         <div className="features-grid">
           
-          {/* Card 1 */}
           <div className="feature-card">
             <div className="feature-icon-wrapper">
               <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
@@ -23,7 +22,6 @@ const Features = () => {
             </p>
           </div>
 
-          {/* Card 2 */}
           <div className="feature-card">
             <div className="feature-icon-wrapper">
               <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
@@ -38,7 +36,6 @@ const Features = () => {
             </p>
           </div>
 
-          {/* Card 3 */}
           <div className="feature-card">
             <div className="feature-icon-wrapper">
               <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
